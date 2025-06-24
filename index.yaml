@@ -43,7 +43,7 @@ entries:
           links:
           - name: '#50814'
             url: https://github.com/apache/airflow/pull/50814
-        - description: Fix FAB ``enable_proxy_fix`` default for Airflow 3
+        - description: 'Fix FAB ``enable_proxy_fix`` default for Airflow 3'
           kind: fixed
           links:
           - name: '#50056'
@@ -140,7 +140,7 @@ entries:
           url: https://airflow.apache.org/docs/apache-airflow/3.0.2/_images/dag_overview_code.png
     apiVersion: v2
     appVersion: 3.0.2
-    created: "2025-06-24T14:42:45.619391-06:00"
+    created: "2025-06-24T15:14:27.752612-06:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -148,7 +148,7 @@ entries:
       version: 13.2.24
     description: The official Helm chart to deploy Apache Airflow, a platform to programmatically
       author, schedule, and monitor workflows
-    digest: 74b26e3c8b46490319ef6765bd102ba6eef7963b31692fc265c5be746c56e08e
+    digest: 1a988733212b2831572fbe8e047c5489d904370ff15db3c7ec04693ada51a874
     home: https://airflow.apache.org/
     icon: https://airflow.apache.org/images/airflow_dark_bg.png
     keywords:
@@ -508,4 +508,4 @@ entries:
     urls:
     - https://archive.apache.org/dist/airflow/helm-chart/1.16.0/airflow-1.16.0.tgz
     version: 1.16.0
-generated: "2025-06-24T14:42:45.612737-06:00"
+generated: "2025-06-24T15:14:27.745207-06:00"
